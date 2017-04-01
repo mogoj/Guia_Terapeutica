@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "110374329377",
+    "firebase_url": "https://fir-tuguiat.firebaseio.com",
+    "project_id": "firebase-tuguiat",
+    "storage_bucket": "firebase-tuguiat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110374329377:android:9a13c6021a04814d",
+        "android_client_info": {
+          "package_name": "com.TuGuiaT"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110374329377-u921pi032rft30hgalhuab5dvejlk3a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.TuGuiaT",
+            "certificate_hash": "a3f9698742691470a09129274ff7d762384e24d1"
+          }
+        },
+        {
+          "client_id": "110374329377-7gjna4jfdhpmhei5gs97kj4po8fahej8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "110374329377-74jd6d2d6on9f8omrndms6i0ni43daq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRyZDB6Ejdh8cBPLjpz0LRXsu_R9hCIXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

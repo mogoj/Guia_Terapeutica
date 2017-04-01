@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TuGuiaT</string>
+    <string name="welcome">Guia de recuperación para operados de rodilla</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">Introduce tu nombre</string>
+    <string name="apellidos">Introduce tu nombre</string>
+    //String menus
+    <string name="txt_menuCuestionario">Cuestionario</string>
+    <string name="txt_menuIMC">Calcular IMC</string>
+    <string name="txt_menuAñadirRegistros">Añadir Registro</string>
+    <string name="txt_menuVerRegistros">Ver Registros</string>
+    <string name="txt_menuVerGrafica">Ver Gráficas</string>
+    <string name="txt_menuGuias">Ver Guias</string>
+
+    <string name="btn_entrada">Entrar</string>
+    <string name="btn_CalculoIMC">Calcular IMC</string>
+    <string name="btn_Cuestionario">Cuestionario</string>
+    <string name="btn_Ayuda">Ayuda</string>
+    <string name="btn_Siguiente">Siguiente</string>
+    <string name="btn_Atras">Anterior</string>
+    <string name="btn_Terminar">Terminar</string>
+    <string name="btn_Calcular">Calcular</string>
+    <string name="btn_Enviar">Enviar</string>
+    <string name="btn_Pdf">Ver Guias PDF</string>
+    <string name="btn_Guia1">Guia 1</string>
+    <string name="btn_Guia2">Guia 2</string>
+    <string name="btn_Guia3">Guia 3</string>
+
+    <string name="Peso">Peso(en Kg)</string>
+    <string name="Altura">Altura(en cm)</string>
+    <string name="ResultadoIMC">Resultado IMC</string>
+
+    <string name="title_activity_cuestionario">Cuestionario</string>
+    //Cuestionario
+    <string name="IntroCuestionario">CUESTIONARIO WOMAC PARA ARTROSIS</string>
+    <string name="TitutoParte1">Las preguntas de los apartados A,B,C se plantearán de la forma que se muestra a continuación.
+    Usted debe contestarlas selecionando una de las respuestas.</string>
+    <string name="Ayuda_1">1.Si usted pone la selecciona la respuesta más arriba indica que no NO TIENE DOLOR</string>
+    <string name="Ayuda_2">2.Si usted selecciona la respuesta mas a la derecha indica que TIENE MUCHISIMO DOLOR</string>
+    <string name="Ayuda_3">3.Por favor,tenga en cuenta:</string>
+    <string name="Dolor_Ninguno">Ninguno</string>
+    <string name="Dolor_Poco">Poco</string>
+    <string name="Dolor_Bastante">Bastante</string>
+    <string name="Dolor_Mucho">Mucho</string>
+    <string name="Dolor_Muchisimo">Muchísimo</string>
+
+    <string name="btn_InsertarBd">Insertar Registros</string>
+    <string name="EntradaDatos">Registra tus datos en el historial</string>
+
+    <string name="Apartado_A">Apartado A</string>
+    <string name="Apartado_B">Apartado B</string>
+    <string name="Apartado_C">Apartado C</string>
+    <string name="Deslizar">Para pasar al siguiente apartado desliza el dedo hacia la derecha y para el apartado anterior hacia la izquerda </string>
+
+
+</resources>

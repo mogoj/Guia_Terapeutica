@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Apartados">
+        <item>Apartado A</item>
+        <item>Apartado B</item>
+        <item>Apartado C</item>
+
+    </string-array>
+
+    <string-array name="instrucciones">
+
+      <item>Las siguientes preguntas tratan sobre cuanto DOLOR siente usted en las caderas y/o como
+    consecuencia de sus artrosis.Para cada situación indique cuánto DOLOR ha notado en los últimos 2 días.
+        PREGUNTA:¿Cuánto dolor tiene..?</item>
+        <item>Las siguientes preguntas sirven para conocer cuánta RIGIDEZ (no dolor) ha notado en sus caderas y/o rodillas en los últimos 2 días.
+        RIGIDEZ es una sensación de dificultad inicial para mover con facilidad las articulaciones.</item>
+        <item>Las siguientes preguntas sirven para conocer su CAPACIDAD FUNCIONAL.Es decir,su capacidad para moverse, desplazarse o cuidad de si mismo.
+        Indique cuánta dificultad ha notado en los últimos 2 dias al realizar cada una de las siguientes activdades, como consecuencia de su artrosis de caderas y/o rodillas.
+        ¿Que grado de dificultad tiene al..?</item>
+
+    </string-array>
+ <string-array name="QuestionsA">
+     <item>1.Al andar por un terreno llano</item>
+     <item>2.Al subir o bajar escaleras</item>
+     <item>3.Por la noche en la cama</item>
+     <item>4.Al estar sentado o tumbado</item>
+     <item>5.Al estar de pie</item>
+
+ </string-array>
+    <string-array name="QuestionsB">
+        <item>1.¿Cuánta rigidez nota después de despertarse por la mañana?</item>
+        <item>2.¿Cuánta rigidez nota durante el resto del día después de estar sentado,tumbado o descansando?</item>
+
+
+    </string-array>
+    <string-array name="QuestionsC">
+        <item>1.Bajar las escaleras</item>
+        <item>2.Subir escaleras</item>
+        <item>3.Levantarse después de estar sentado</item>
+        <item>4.Estar de pie</item>
+        <item>5.Agacharse para coger algo del suelo</item>
+        <item>6.Andar por un terreno llano</item>
+        <item>7.Entar y salir de un coche</item>
+        <item>8.Ir de compras</item>
+        <item>9.Ponerse las medias o los calcetines</item>
+        <item>10.Levantarse de la cama</item>
+        <item>11.Quitarse las medias o los calcetines</item>
+        <item>12.Estar tumbado en la cama</item>
+        <item>13.Entrar y salir de la ducha/bañera</item>
+        <item>14.Estar sentado</item>
+        <item>15.Sentarse y levantarse del retrete</item>
+        <item>16.Hacer tareas domésticas pesadas</item>
+        <item>17.Hacer tareas domésticas ligeras</item>
+
+
+
+    </string-array>
+    <string-array name="valores">
+        <item>Ninguno</item>
+        <item>Poco</item>
+        <item>Bastante</item>
+        <item>Mucho</item>
+        <item>Muchisimo</item>
+
+
+    </string-array>
+
+</resources>

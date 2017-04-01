@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel de Dolor"
+        android:id="@+id/txtPuntuacion"
+        android:layout_gravity="center_horizontal"
+        android:textSize="9pt"
+       android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Puntuacion"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="9pt"
+        android:maxLength="2"
+        android:inputType="number"
+        android:textColor="#ffbf4e"
+        android:gravity="center_vertical|center_horizontal" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_marginTop="5pt">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="5pt">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso"
+            android:id="@+id/txtPeso"
+            android:layout_gravity="center_horizontal"
+            android:textSize="9pt"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Peso"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:maxLength="4"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura"
+        android:id="@+id/txtAltura"
+        android:layout_gravity="center_horizontal"
+        android:textSize="9pt"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Altura"
+        android:inputType="number"
+        android:maxLength="3"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+        </LinearLayout>
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Calcular"
+        android:id="@+id/calcular" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado IMC"
+        android:id="@+id/txtIMC"
+        android:layout_gravity="center_horizontal"
+        android:textSize="9pt"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10pt" />
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ResultIMC"
+        android:layout_gravity="center"
+        android:textColor="#ffbf4e"
+        android:gravity="center_horizontal"
+        android:textSize="7pt" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La guia a utilizar es"
+        android:id="@+id/txtGuia"
+        android:layout_gravity="center_horizontal"
+        android:textSize="9pt"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10pt" />
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/ResultadoGuia"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:textColor="#ffbf4e"
+        android:gravity="center_horizontal"
+        android:textSize="7pt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar"
+        android:id="@+id/cerrar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10pt" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir"
+        android:id="@+id/btn_añadir"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#673AB7"
+    tools:context=".MenuActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@drawable/customborder"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_CalculoIMC"
+                android:id="@+id/btn_calculoIMC"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/calculadora_imc1"
+                android:background="@android:color/transparent"
+                android:contentDescription="Calculo IMC" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_menuIMC"
+                android:id="@+id/textView4"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@drawable/customborder"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_Cuestionario"
+                android:id="@+id/btn_Cuestionario"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_my_library_books_64"
+                android:background="@android:color/transparent"
+                android:contentDescription="Imagen Cuestionario" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_menuCuestionario"
+                android:id="@+id/textView5"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@drawable/customborder"
+            android:layout_gravity="center">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_InsertarBd"
+                android:id="@+id/btn_InsertarBD"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_rate_review_64"
+                android:background="@android:color/transparent"
+                android:contentDescription="Insertar BBDD" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_menuAñadirRegistros"
+                android:id="@+id/textView6"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/customborder"
+            android:layout_margin="20dp"
+            android:layout_gravity="center">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver Registros"
+                android:id="@+id/verRegistros"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_reorder_64"
+                android:background="@android:color/transparent"
+                android:contentDescription="VerRegistros" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/txt_menuVerRegistros"
+                android:id="@+id/textView7"
+                android:gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/customborder"
+            android:layout_gravity="center"
+
+            android:layout_margin="20dp">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_Pdf"
+                android:id="@+id/btn_Pdf"
+                android:src="@drawable/ic_description_64"
+                android:background="@android:color/transparent"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_menuGuias"
+                android:id="@+id/textView8"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp" />
+        </LinearLayout>
+        <!--<Button
+             android:layout_width="200px"
+             android:layout_height="wrap_content"
+             android:text="Graficas"
+             android:id="@+id/btn_Graficas"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="30dp"
+             />-->
+
+
+</LinearLayout>
+
+   <!--<Button
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:text="Graficas"
+        android:id="@+id/btn_Graficas"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />-->
+
+</LinearLayout>
